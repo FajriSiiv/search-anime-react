@@ -6,7 +6,7 @@ import {
   getTopRecentAnimes,
 } from "../api/animeAPi";
 import CardComponents from "./Card/CardComponents";
-import LoadingCard from "./Loading/loadingCard";
+import LoadingCard from "./LoadingCard";
 
 interface PropsMainAnime {
   page: number;
